@@ -52,7 +52,9 @@ func! phpmanual#online#open(...)
 
     let url = 'http://php.net/' . substitute(key, '[\r\n]', '', 'g')
 
-    if has("win32") || has("win95") || has("win64") || has("win16")
+    if exists('g:nyaovim_version')
+        exec "MiniBrowser! " . url
+    elseif has("win32") || has("win95") || has("win64") || has("win16")
         call system("explorer " . shellescape(url))
     elseif has("mac")
         call system('open ' . shellescape(url))
