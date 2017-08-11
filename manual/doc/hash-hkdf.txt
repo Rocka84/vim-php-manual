@@ -79,15 +79,15 @@ Example #1 hash_hkdf() example
 <?>
 
 The above example produces a pair of separate keys, suitable for creation of
-an encrypt-then-HMAC contrstruct, using AES-256 and SHA-256 for encryption and
+an encrypt-then-HMAC construct, using AES-256 and SHA-256 for encryption and
 authentication respectively.
 
 ==============================================================================
 *See* *Also*
 
   * |hash_pbkdf2| - Generate a PBKDF2 key derivation of a supplied password
-  * >> RFC 5869
-  * >> userland implementation
+  * » RFC 5869
+  * » userland implementation
 
 
 vim:ft=help:

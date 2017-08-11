@@ -77,7 +77,7 @@ be used in the certificate.
 ==============================================================================
 *Return* *Values*
 
-Returns the CSR.
+Returns the CSR or FALSE on failure.
 
 ==============================================================================
 *Examples*

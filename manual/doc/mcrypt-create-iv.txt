@@ -72,8 +72,8 @@ Example #1 mcrypt_create_iv() Example
 ==============================================================================
 *See* *Also*
 
-  * >> http://www.ciphersbyritter.com/GLOSSARY.HTM#IV
-  * >> http://www.quadibloc.com/crypto/co0409.htm
+  * » http://www.ciphersbyritter.com/GLOSSARY.HTM#IV
+  * » http://www.quadibloc.com/crypto/co0409.htm
   * Chapter 9.3 of Applied Cryptography by Schneier (ISBN 0-471-11709-9)
   * |random_bytes| - Generates cryptographically secure pseudo-random bytes
 

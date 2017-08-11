@@ -35,6 +35,13 @@ Returns a Hashing Context resource for use with |hash_update|,
 |hash_update_stream|, |hash_update_file|, and |hash_final|.
 
 ==============================================================================
+*Changelog*
+
+Version                              Description
+7.2.0   Usage of non-cryptographic hash functions (adler32, crc32, crc32b,
+        fnv132, fnv1a32, fnv164, fnv1a64, joaat) with HASH_HMAC was disabled.
+
+==============================================================================
 *Examples*
 
 Example #1 Incremental hashing example

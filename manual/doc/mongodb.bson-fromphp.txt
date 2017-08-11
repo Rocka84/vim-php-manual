@@ -9,8 +9,8 @@ MongoDB\BSON\fromPHP — Returns the BSON representation of a PHP value
 
     string MongoDB\BSON\fromPHP ( array|object $value )~
 
-Serializes a PHP array or object (e.g. document) to its >> BSON
-representation. The returned binary string will describe a BSON document.
+Serializes a PHP array or object (e.g. document) to its » BSON representation.
+The returned binary string will describe a BSON document.
 
 ==============================================================================
 *Parameters*
@@ -27,10 +27,10 @@ The serialized BSON document as a binary string.
 ==============================================================================
 *Errors/Exceptions*
 
-Throws MongoDB\Driver\Exception\UnexpectedValueException if the PHP value
-cannot be converted to BSON. Possible reasons include, but are not limited to,
-encountering an unexpected MongoDB\BSON\Type instance or MongoDB\BSON\
-Serializable::bsonSerialize() failing to return an array or stdClass.
+  * Throws MongoDB\Driver\Exception\UnexpectedValueException if the PHP value
+    cannot be converted to BSON. Possible reasons include, but are not limited
+    to, encountering an unexpected MongoDB\BSON\Type instance or MongoDB\BSON\
+    Serializable::bsonSerialize() failing to return an array or stdClass.
 
 ==============================================================================
 *Examples*
@@ -52,7 +52,7 @@ The above example will output:
 *See* *Also*
 
   * MongoDB\BSON\toPHP() - Returns the PHP representation of a BSON value
-  * >> MongoDB BSON
+  * » MongoDB BSON
   * Persisting Data
 
 

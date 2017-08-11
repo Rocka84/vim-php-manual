@@ -60,7 +60,7 @@ function.
 
   * |current| - Return the current element in an array
   * |end| - Set the internal pointer of an array to its last element
-  * |next| - Advance the internal array pointer of an array
+  * |next| - Advance the internal pointer of an array
   * |reset| - Set the internal pointer of an array to its first element
   * |each| - Return the current key and value pair from an array and advance
     the array cursor

@@ -76,7 +76,7 @@ Array
     [0] => img12.png
 )
 
-For more information see: Martin Pool's >> Natural Order String Comparison
+For more information see: Martin Pool's » Natural Order String Comparison
 page.
 
 Example #2 natsort() examples demonstrating potential gotchas

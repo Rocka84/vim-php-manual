@@ -31,7 +31,7 @@ available.
     One of ZLIB_BLOCK, ZLIB_NO_FLUSH, ZLIB_PARTIAL_FLUSH, ZLIB_SYNC_FLUSH
     (default), ZLIB_FULL_FLUSH, ZLIB_FINISH. Normally you will want to set
     ZLIB_NO_FLUSH to maximize compression, and ZLIB_FINISH to terminate with
-    the last chunk of data. See the >> zlib manual for a detailed description
+    the last chunk of data. See the » zlib manual for a detailed description
     of these constants.
 
 ==============================================================================

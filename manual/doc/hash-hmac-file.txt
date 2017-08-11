@@ -40,6 +40,13 @@ unless {raw_output} is set to true in which case the raw binary representation
 of the message digest is returned.
 
 ==============================================================================
+*Changelog*
+
+Version                              Description
+7.2.0   Usage of non-cryptographic hash functions (adler32, crc32, crc32b,
+        fnv132, fnv1a32, fnv164, fnv1a64, joaat) was disabled.
+
+==============================================================================
 *Examples*
 
 Example #1 hash_hmac_file() example

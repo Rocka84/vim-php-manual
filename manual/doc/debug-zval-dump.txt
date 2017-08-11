@@ -104,7 +104,7 @@ The above example will output:
   * |var_dump| - Dumps information about a variable
   * |debug_backtrace| - Generates a backtrace
   * References Explained
-  * >> References Explained (by Derick Rethans)
+  * » References Explained (by Derick Rethans)
 
 
 vim:ft=help:

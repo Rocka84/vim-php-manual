@@ -20,8 +20,9 @@ Decodes a base64 encoded {data}.
 
 {strict}
 
-    Returns FALSE if input contains character from outside the base64
-    alphabet.
+    If the {strict} parameter is set to TRUE then the base64_decode() function
+    will return FALSE if the input contains character from outside the base64
+    alphabet. Otherwise invalid characters will be silently discarded.
 
 ==============================================================================
 *Return* *Values*
@@ -53,7 +54,7 @@ This is an encoded string
 *See* *Also*
 
   * |base64_encode| - Encodes data with MIME base64
-  * >> RFC 2045 section 6.8
+  * » RFC 2045 section 6.8
 
 
 vim:ft=help:

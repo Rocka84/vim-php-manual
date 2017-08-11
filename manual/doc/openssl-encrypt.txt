@@ -7,9 +7,9 @@ openssl_encrypt — Encrypts data
 ==============================================================================
 *Description*
 
-    string openssl_encrypt ( string $data , string $method , string $password~
-    [, int $options = 0 [, string $iv = "" [, string &$tag = NULL~
-    [, string $aad = "" [, int $tag_length = 16 ]]]]] )~
+    string openssl_encrypt ( string $data , string $method , string $key [,~
+    int $options = 0 [, string $iv = "" [, string &$tag = NULL [,~
+    string $aad = "" [, int $tag_length = 16 ]]]]] )~
 
 Encrypts given data with given method and key, returns a raw or base64 encoded
 string
@@ -26,9 +26,9 @@ string
     The cipher method. For a list of available cipher methods, use 
     |openssl_get_cipher_methods|.
 
-{password}
+{key}
 
-    The password.
+    The key.
 
 {options}
 

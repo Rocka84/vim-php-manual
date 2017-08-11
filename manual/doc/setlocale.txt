@@ -61,7 +61,7 @@ implemented on your platform, the specified locale does not exist or the
 category name is invalid.
 
 An invalid category name also causes a warning message. Category/locale names
-can be found in >> RFC 1766 and >> ISO 639. Different systems have different
+can be found in » RFC 1766 and » ISO 639. Different systems have different
 naming schemes for locales.
 
     Note:
@@ -124,9 +124,9 @@ time, changing the process-wide locale using setlocale().
 Tip
 
 Windows users will find useful information about {locale} strings at
-Microsoft's MSDN website. Supported language strings can be found in the >>
- language strings documentation and supported country/region strings in the >>
- country/region strings documentation.
+Microsoft's MSDN website. Supported language strings can be found in the
+» language strings documentation and supported country/region strings in the
+» country/region strings documentation.
 
 
 vim:ft=help:

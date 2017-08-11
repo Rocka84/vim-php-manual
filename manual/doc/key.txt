@@ -59,7 +59,7 @@ fruit5<br />
 *See* *Also*
 
   * |current| - Return the current element in an array
-  * |next| - Advance the internal array pointer of an array
+  * |next| - Advance the internal pointer of an array
   * foreach
 
 

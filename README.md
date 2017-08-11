@@ -26,6 +26,14 @@ b. Use vundle:
 
 c. Use other package manager.
 
+Configuration
+-------------
+
+Use another mapping for the online search:
+```
+let g:php_manual_online_search_shortcut = '<A-h>'
+```
+
 Screenshots
 -----------
 

@@ -194,7 +194,7 @@ If __isset() is not provided, then an empty array will be returned.
 ==============================================================================
 *See* *Also*
 
-  * >> Recommended userland implementation for PHP lower than 5.5
+  * » Recommended userland implementation for PHP lower than 5.5
 
 
 vim:ft=help:

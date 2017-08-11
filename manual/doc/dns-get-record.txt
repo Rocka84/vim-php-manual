@@ -90,13 +90,12 @@ PTR    target: Location within the DNS namespace to which this record points.
 TXT    txt: Arbitrary string data associated with this record.
        cpu: IANA number designating the CPU of the machine referenced by this
 HINFO  record. os: IANA number designating the Operating System on the machine
-       referenced by this record. See IANA's >> Operating System Names for the
+       referenced by this record. See IANA's » Operating System Names for the
        meaning of these values.
        flags: A one-byte bitfield; currently only bit 0 is defined, meaning
-       'critical'; other bits are reserved and should be ignored. tag: The CAA
-CAA    tag name (alphanumeric ASCII string). value: The CAA tag value (binary
-       string, may use subformats). For additional information see: >> RFC
-       6844
+CAA    'critical'; other bits are reserved and should be ignored. tag: The CAA
+       tag name (alphanumeric ASCII string). value: The CAA tag value (binary
+       string, may use subformats). For additional information see: » RFC 6844
        mname: FQDN of the machine from which the resource records originated.
        rname: Email address of the administrative contact for this domain.
        serial: Serial # of this revision of the requested domain. refresh:
@@ -116,9 +115,9 @@ A6(PHP masklen: Length (in bits) to inherit from the target specified by
        pri: (Priority) lowest priorities should be used first. weight: Ranking
 SRV    to weight which of commonly prioritized {targets} should be chosen at
        random. target and port: hostname and port where the requested service
-       can be found. For additional information see: >> RFC 2782
+       can be found. For additional information see: » RFC 2782
 NAPTR  order and pref: Equivalent to {pri} and {weight} above. flags, services
-       , regex, and replacement: Parameters as defined by >> RFC 2915.
+       , regex, and replacement: Parameters as defined by » RFC 2915.
 
 ==============================================================================
 *Changelog*
@@ -305,7 +304,7 @@ Additional = Array
     Note:
 
     For compatibility with versions before PHP 5.3.0 on some operating
-    systems, try the >> PEAR class >> Net_DNS.
+    systems, try the » PEAR class » Net_DNS.
 
 ==============================================================================
 *See* *Also*

@@ -7,8 +7,8 @@ openssl_decrypt — Decrypts data
 ==============================================================================
 *Description*
 
-    string openssl_decrypt ( string $data , string $method , string $password~
-    [, int $options = 0 [, string $iv = "" [, string $tag =~
+    string openssl_decrypt ( string $data , string $method , string $key [,~
+    int $options = 0 [, string $iv = "" [, string $tag =~
     "" [, string $aad = "" ]]]] )~
 
 Takes a raw or base64 encoded string and decrypts it using a given method and
@@ -30,9 +30,9 @@ available.
 
     The cipher method.
 
-{password}
+{key}
 
-    The password.
+    The key.
 
 {options}
 

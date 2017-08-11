@@ -23,7 +23,7 @@ Takes a JSON encoded string and converts it into a PHP variable.
 
         Note:
 
-        PHP implements a superset of JSON as specified in the original >> RFC
+        PHP implements a superset of JSON as specified in the original » RFC
         7159.
 
 {assoc}

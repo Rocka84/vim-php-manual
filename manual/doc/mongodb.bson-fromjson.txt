@@ -9,7 +9,7 @@ MongoDB\BSON\fromJSON — Returns the BSON representation of a JSON value
 
     string MongoDB\BSON\fromJSON ( string $json )~
 
-Converts an >> extended JSON string to its BSON representation.
+Converts an » extended JSON string to its BSON representation.
 
 ==============================================================================
 *Parameters*
@@ -26,8 +26,8 @@ The serialized BSON document as a binary string.
 ==============================================================================
 *Errors/Exceptions*
 
-Throws MongoDB\Driver\Exception\UnexpectedValueException if the JSON value
-cannot be converted to BSON (e.g. due to a syntax error).
+  * Throws MongoDB\Driver\Exception\UnexpectedValueException if the JSON value
+    cannot be converted to BSON (e.g. due to a syntax error).
 
 ==============================================================================
 *Examples*
@@ -56,9 +56,10 @@ object(stdClass)#2 (1) {
 ==============================================================================
 *See* *Also*
 
-  * MongoDB\BSON\toJSON() - Returns the JSON representation of a BSON value
-  * >> MongoDB Extended JSON
-  * >> MongoDB BSON
+  * MongoDB\BSON\toJSON() - Returns the Legacy Extended JSON representation of
+    a BSON value
+  * » MongoDB Extended JSON
+  * » MongoDB BSON
 
 
 vim:ft=help:

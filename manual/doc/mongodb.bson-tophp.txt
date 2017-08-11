@@ -7,8 +7,7 @@ MongoDB\BSON\toPHP — Returns the PHP representation of a BSON value
 ==============================================================================
 *Description*
 
-    array|object MongoDB\BSON\toPHP ( string $bson [, array $typeMap =~
-    array() ] )~
+    array|object MongoDB\BSON\toPHP ( string $bson [, array $typeMap = [] ] )~
 
 Unserializes a BSON document (i.e. binary string) to its PHP representation.
 The {typeMap} paramater may be used to control the PHP types used for
@@ -33,14 +32,24 @@ The unserialized PHP value.
 ==============================================================================
 *Errors/Exceptions*
 
-Throws MongoDB\Driver\Exception\InvalidArgumentException if a class in the
-type map cannot be instantiated or does not implement MongoDB\BSON\
-Unserializable.
+  * Throws MongoDB\Driver\Exception\InvalidArgumentException if a class in the
+    type map cannot be instantiated or does not implement MongoDB\BSON\
+    Unserializable.
+  * Throws MongoDB\Driver\Exception\UnexpectedValueException if the input
+    contains an unsupported, deprecated BSON type. Possible types include 0x06
+    (undefined), 0x0E (symbol), and 0x0C (DBPointer).
+  * Throws MongoDB\Driver\Exception\UnexpectedValueException if the input did
+    not contain exactly one BSON document. Possible reasons include, but are
+    not limited to, invalid BSON, extra data (after reading one BSON
+    document), or an unexpected » libbson error.
 
-Throws MongoDB\Driver\Exception\UnexpectedValueException if the input did not
-contain exactly one BSON document. Possible reasons include, but are not
-limited to, invalid BSON, extra data (after reading one BSON document), or an
-unexpected >> libbson error.
+==============================================================================
+*Changelog*
+
+Version                              Description
+        MongoDB\Driver\Exception\UnexpectedValueException is thrown if the
+1.3.0   input contains an unsupported, deprecated BSON type. Previously, such
+        types were ignored.
 
 ==============================================================================
 *Examples*
@@ -66,7 +75,7 @@ object(stdClass)#1 (1) {
 *See* *Also*
 
   * MongoDB\BSON\fromPHP() - Returns the BSON representation of a PHP value
-  * >> MongoDB BSON
+  * » MongoDB BSON
   * Persisting Data
 
 

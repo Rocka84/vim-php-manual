@@ -61,7 +61,7 @@ aA
 
   * |sprintf| - Return a formatted string with a format string of %c
   * |ord|
-  * An >> ASCII-table
+  * An » ASCII-table
 
 
 vim:ft=help:

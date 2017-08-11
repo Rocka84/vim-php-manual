@@ -54,7 +54,7 @@ Example #1 reset() example
   * |each| - Return the current key and value pair from an array and advance
     the array cursor
   * |end| - Set the internal pointer of an array to its last element
-  * |next| - Advance the internal array pointer of an array
+  * |next| - Advance the internal pointer of an array
   * |prev| - Rewind the internal array pointer
 
 

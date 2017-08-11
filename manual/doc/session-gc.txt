@@ -1,6 +1,6 @@
 session_gc
 
-(No version information available, might only be in Git)
+(PHP 7 >= 7.1.0)
 
 session_gc — Perform session data garbage collection
 

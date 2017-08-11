@@ -151,7 +151,7 @@ array(3) {
   * |http_build_query| - Generate URL-encoded query string
   * |dirname| - Returns a parent directory's path
   * |basename| - Returns trailing name component of path
-  * >> RFC 3986
+  * » RFC 3986
 
 
 vim:ft=help:

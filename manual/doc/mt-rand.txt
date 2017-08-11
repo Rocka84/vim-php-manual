@@ -20,7 +20,7 @@ value, consider using |random_int|, |random_bytes|, or
 Many random number generators of older libcs have dubious or unknown
 characteristics and are slow. The mt_rand() function is a drop-in replacement
 for the older |rand|. It uses a random number generator with known
-characteristics using the >> Mersenne Twister, which will produce random
+characteristics using the » Mersenne Twister, which will produce random
 numbers four times faster than what the average libc rand() provides.
 
 If called without the optional {min}, {max} arguments mt_rand() returns a
@@ -78,8 +78,8 @@ The above example will output something similar to:
 Warning
 
 {min} {max} range must be within the range |mt_getrandmax|. i.e. ({max} -
-{min}) <= |mt_getrandmax| Otherwise, mt_rand() may return poor random numbers
-than it should be.
+{min}) <= |mt_getrandmax| Otherwise, mt_rand() may return poorer random
+numbers than it should.
 
 ==============================================================================
 *See* *Also*
